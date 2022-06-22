@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "LeetCodeTemplate",
+            "type": "python",
+            "program": "${workspaceFolder}/LeetCodeTemplate/LeetCodeTemplate.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "LeetCodeTemplate/LeetCodeTemplateCase.yml"]
+        },
+        {
+            "name": "TwoSum",
+            "type": "python",
+            "program": "${workspaceFolder}/1TwoSum/TwoSum.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "1TwoSum/TwoSumCase.yml"]
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+Cases:
+  - Input:
+      inputarg1: 0
+    Output:
+      result: 0
+  - Input:
+      inputarg1: 0
+    Output:
+      result: 1
