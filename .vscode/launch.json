@@ -16,15 +16,15 @@
             "args" : ["--case", "LeetCodeTemplate/LeetCodeTemplateCase.yml"]
         },
         {
-            "name": "TwoSum",
+            "name": "LRUCache",
             "type": "python",
-            "program": "${workspaceFolder}/1TwoSum/TwoSum.py",
+            "program": "${workspaceFolder}/146.LRUCache/LRUCache.py",
             "request": "launch",
             "console": "integratedTerminal",
             "env": {
                 "SERVICE_LOG_LEVEL": "DEBUG",
             },
-            "args" : ["--case", "1TwoSum/TwoSumCase.yml"]
+            "args" : ["--case", "146.LRUCache/LRUCacheCase.yml"]
         }
     ]
 }

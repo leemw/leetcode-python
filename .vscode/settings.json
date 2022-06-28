@@ -4,7 +4,7 @@
     ],
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
-    "python.linting.pylintArgs": ["--extension-pkg-whitelist=pyrealsense2"],
+    "python.linting.pylintArgs": [],
     "files.exclude": {
         "**/*.pyc": true
     },
