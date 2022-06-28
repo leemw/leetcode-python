@@ -16,6 +16,61 @@
             "args" : ["--case", "LeetCodeTemplate/LeetCodeTemplateCase.yml"]
         },
         {
+            "name": "TwoSum",
+            "type": "python",
+            "program": "${workspaceFolder}/1TwoSum/TwoSum.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "1TwoSum/TwoSumCase.yml"]
+        },
+        {
+            "name": "ContainsDuplicate",
+            "type": "python",
+            "program": "${workspaceFolder}/217ContainsDuplicate/ContainsDuplicate.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "217ContainsDuplicate/ContainsDuplicateCase.yml"]
+        },
+        {
+            "name": "MajorityElement",
+            "type": "python",
+            "program": "${workspaceFolder}/169.MajorityElement/MajorityElement.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "169.MajorityElement/MajorityElementCase.yml"]
+        },
+        {
+            "name": "GroupAnagrams",
+            "type": "python",
+            "program": "${workspaceFolder}/49.GroupAnagrams/GroupAnagrams.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "49.GroupAnagrams/GroupAnagramsCase.yml"]
+        },
+        {
+            "name": "4SumII",
+            "type": "python",
+            "program": "${workspaceFolder}/454.4SumII/4SumII.py",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "env": {
+                "SERVICE_LOG_LEVEL": "DEBUG",
+            },
+            "args" : ["--case", "454.4SumII/4SumIICase.yml"]
+        },
+        {
             "name": "LRUCache",
             "type": "python",
             "program": "${workspaceFolder}/146.LRUCache/LRUCache.py",

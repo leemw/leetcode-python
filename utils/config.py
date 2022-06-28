@@ -1,7 +1,3 @@
-#
-# Copyright (c) 2020 by Lilee Technology, Ltd.
-# All rights reserverd.
-#
 import logging
 import os
 
